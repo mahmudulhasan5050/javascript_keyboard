@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #4b6cb7;
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); 
+  background: linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); 
+}
+.container{
+  text-align: center;
+color: rgb(5, 233, 5);
+}
+#print{
+font-size: 30px;
+color: #f8f8ff;
+}
+
